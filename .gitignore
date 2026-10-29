@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Generated outputs
+**/results/
+**/logs/
+*.log
+
+# Large sequencing and genomic files
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bigWig
+*.bw
+*.bigBed
+*.bb
+*.vcf.gz
+*.bcf
+*.fa
+*.fasta
+*.fai
+*.2bit
+
+# Downloaded reference directories
+**/references/
+**/reference_downloads/
+**/ChrmHMM_downloads/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
